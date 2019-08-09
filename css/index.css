@@ -209,3 +209,36 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+
+/* ------------------About.html CSS------------------- */
+
+.about{
+    width:96%;
+    border-bottom:1px dotted black;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:0 2% 0 2%;
+}
+
+.about-main-content{
+    width:90%;
+    padding-top:20px;
+	display:flex;
+	justify-content:space-evenly;
+    flex-wrap:wrap;
+}
+
+.about-main-content .about-services{
+    width: 42.5%;
+    border-bottom:1px dotted black;
+    
+}
+
+
+.work-together{
+    width:96%;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:0 2% 0 2%;
+}
