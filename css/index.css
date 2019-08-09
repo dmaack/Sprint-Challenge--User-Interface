@@ -225,10 +225,12 @@ hr{
 }
 .about-main-content{
     width:100%;
+    height:900px;
     padding-top:20px;
 	display:flex;
 	justify-content:space-evenly;
     flex-wrap:wrap;
+    align-items:space-between;
     
 }
 
@@ -238,10 +240,13 @@ hr{
     margin-top:10px;
     margin-bottom:10px;
     padding-bottom:10px;  
-    align-content:space-between;
+    /* align-content:space-around; */
 }
-.about-services .bottom2{
-    padding-top:20px;
+
+.bottom-squares{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:30px;
 }
 h2{
     margin-top:10px;
