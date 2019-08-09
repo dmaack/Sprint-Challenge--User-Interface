@@ -215,26 +215,47 @@ footer nav a {
 
 .about{
     width:96%;
-    border-bottom:1px dotted black;
     padding-top:30px;
-    padding-bottom:30px;
+    padding-bottom:20px;
     margin:0 2% 0 2%;
 }
 
+hr{
+    border:.3px dashed black;
+}
 .about-main-content{
-    width:90%;
+    width:100%;
     padding-top:20px;
 	display:flex;
 	justify-content:space-evenly;
     flex-wrap:wrap;
-}
-
-.about-main-content .about-services{
-    width: 42.5%;
-    border-bottom:1px dotted black;
     
 }
 
+.about-main-content .about-services{
+    width: 47%;
+    border-bottom:.7px dashed black;
+    /* padding: 25px; */
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom:15px;  
+}
+
+h2{
+    margin-top:10px;
+}
+.aboutImgs{
+    width:340px;
+}
+
+.learn-button{
+    border:2px solid black;
+	border-radius:9px;
+	padding:8px 20px 8px 20px;
+    margin-top:15px;
+    font-size:15px;
+    margin-bottom:5px;
+}
 
 .work-together{
     width:96%;
