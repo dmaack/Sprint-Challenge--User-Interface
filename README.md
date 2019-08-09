@@ -1,3 +1,5 @@
+Dominique Maack
+
 # Sprint Challenge: User Interface and Git - Multi-Page Website
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a concrete project. This Sprint explored User Interface and Git. During this Sprint, you studied Semantic HTML, CSS Fundamentals, CSS Flexbox Module, and Git. In your challenge this week, you will demonstrate proficiency by creating a multi page website that has some missing HTML elements as well as CSS specificity problems that need to be solved.  You will also create an additional web page that will be linked to from a navigation you will build.
@@ -34,13 +36,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+        Semantic HTML is the essence of marking up a web page to communicate the intent of the content to both the browser and readability for other developers
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+        -Within display:inline; you allow elements to sit next to each other rather than stacked
+        -With display:block you it takes up the whole width where as with inline, height or width properties will have no effect.
 
 3. What are the 4 areas of the box model?
 
+        Content(at the center) - Padding(around content) - Border(around padding) - Margin(around border)
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+        Cross axis
+
 5. Explain why git is valuable to a team of developers.
+
+        It would be hard to collaborate on a project without a central repository. Therefore, having a platform(git) where code is maintained, committed and merged; as well as a work flow to coordinate distributed development is crucial. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

@@ -71,10 +71,36 @@ p {
     margin: 0 auto;
 }
 
+.navigationBar{
+    width:100%;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin-bottom:20px;
+    display:flex;
+}
+
+.navLinks {
+    width:90%;
+    padding-top:27px;
+    /* margin-top:30px; */
+   
+
+	display:flex;
+	justify-content:space-around;
+}
+
+a{
+    text-decoration:none;
+    color:black;
+    display:flex;
+    justify-content:space-around; 
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top:20px;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -104,7 +130,7 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
@@ -112,6 +138,45 @@ p {
     justify-content: center;
 }
 
+.box1{
+    background-color:teal;
+}
+
+.box2{
+    background-color:gold;
+}
+
+.box3{
+    background-color:cadetblue;
+}
+
+.box4{
+    background-color:coral;
+}
+
+.box5{
+    background-color:crimson;
+}
+
+.box6{
+    background-color:forestgreen;
+}
+
+.box7{
+    background-color:darkorchid;
+}
+
+.box8{
+    background-color:hotpink;
+}
+
+.box9{
+    background-color:indigo;
+}
+
+.box10{
+    background-color:dodgerblue;
+}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +208,66 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+/* ------------------About.html CSS------------------- */
+
+.about{
+    width:96%;
+    padding-top:20px;
+    padding-bottom:20px;
+    margin:0 2% 0 2%;
+}
+
+hr{
+    border:.3px dashed black;
+}
+.about-main-content{
+    width:100%;
+    height:900px;
+    padding-top:20px;
+	display:flex;
+	justify-content:space-evenly;
+    flex-wrap:wrap;
+    align-items:space-between;
+    
+}
+
+.about-main-content .about-services{
+    width: 45%;
+    border-bottom:.7px dashed black;
+    margin-top:10px;
+    margin-bottom:10px;
+    padding-bottom:10px;  
+    /* align-content:space-around; */
+}
+
+.bottom-squares{
+    display:flex;
+    justify-content:space-evenly;
+    margin-top:30px;
+}
+h2{
+    margin-top:10px;
+}
+.aboutImgs{
+    width:350px;
+    height:225px;
+}
+
+.learn-button{
+    border:2px solid black;
+	border-radius:9px;
+	padding:8px 20px 8px 20px;
+    margin-top:15px;
+    font-size:15px;
+    margin-bottom:5px;
+}
+
+.work-together{
+    width:96%;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:0 2% 0 2%;
 }
